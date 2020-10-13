@@ -11,8 +11,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener {
-            Log.e("@#$", "My awesome button been pressed")
+        button1.setOnClickListener {
+            Log.e("@#$", "Button1 have been pressed")
+        }
+        button2.setOnClickListener {
+            Log.e("@#$", "Button2 have been pressed")
+        }
+        button3.setOnClickListener {
+            Log.e("@#$","Button3 have been pressed")
+        }
+        button4.setOnClickListener {
+            Log.e("@#$", "Button4 have been pressed")
         }
     }
 }
